@@ -3,7 +3,6 @@ package com.example.demo.service;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
@@ -12,7 +11,6 @@ public class ApiServiceToServer {
     
     private final ApiService apiService;
 
-    @Autowired  
     public ApiServiceToServer(ApiService apiService) { 
         this.apiService = apiService;
     }
